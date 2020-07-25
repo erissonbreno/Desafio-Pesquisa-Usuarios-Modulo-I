@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Pesquisa de Usuários</h1>
+    </div>
+
+    <div class="container">
+      <div class="input-field">
+        <input type="text" id="input-text">
+        <label id="lbl-search" for="input-text"></label>
+      </div>
+      <button id="btn-search">BUSCAR</button>
+    </div>
+    
+    <div class="search-container">
+      <div class="people-list">
+        <h3>
+          <span id="text-users">Nenhum usuário filtrado</span>
+        </h3>
+        <span id="filtered-users"></span>
+        <div id="tab-people"></div>
+      </div>
+      
+      <div class="people-statistics">
+        <h3>
+          <span id="text-statistics">Nada a ser exibido</span>
+        </h3>
+        <span id="statistics"></span>
+        <div id="tab-statistics"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
